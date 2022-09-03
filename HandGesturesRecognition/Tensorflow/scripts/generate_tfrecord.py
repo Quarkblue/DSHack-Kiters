@@ -24,7 +24,7 @@ import xml.etree.ElementTree as ET
 import argparse
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'    # Suppress TensorFlow logging (1)
-import tensorflow.compat.v1 as tf
+import tensorflow._api.v2.compat.v1 as tf
 from PIL import Image
 from object_detection.utils import dataset_util, label_map_util
 from collections import namedtuple
@@ -58,8 +58,8 @@ args = parser.parse_args()
 if args.image_dir is None:
     args.image_dir = args.xml_dir
 
-label_map = label_map_util.load_labelmap(args.labels_path)
-label_map_dict = label_map_util.get_label_map_dict(label_map)
+# label_map = label_map_util.load_labelmap(args.labels_path)
+# label_map_dict = label_map_util.get_label_map_dict(label_map)
 
 
 def xml_to_csv(path):
