@@ -1,3 +1,14 @@
 MODEL_NAME = 'my_ssd_mobnet'
 PRETRAINED_MODEL_PATH = "HandGesturesRecognition\Tensorflow\\resources\\pre-trained-models"
 CONFIGURATION_FILE_PATH = "HandGesturesRecognition\Tensorflow\\resources\models\\" + MODEL_NAME + "\\pipeline.config"
+WORKSPACE_PATH = 'Tensorflow/resources'
+SCRIPTS_PATH = 'Tensorflow/scripts'
+APIMODEL_PATH = 'Tensorflow/models'
+ANNOTATION_PATH = WORKSPACE_PATH+'/annotations'
+IMAGE_PATH = WORKSPACE_PATH+'/images'
+MODEL_PATH = WORKSPACE_PATH+'/models'
+PRETRAINED_MODEL_PATH = WORKSPACE_PATH+'/pre-trained-models'
+CONFIG_PATH = MODEL_PATH+'/my_ssd_mobnet/pipeline.config'
+CHECKPOINT_PATH = MODEL_PATH+'/my_ssd_mobnet/'
+CUSTOM_MODEL_NAME = 'my_ssd_mobnet' 
+CONFIG_PATH = "/Tensorflow/resources/models/my_ssd_mobnet/pipeline.config"
