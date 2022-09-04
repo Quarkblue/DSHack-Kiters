@@ -34,3 +34,7 @@ item {
 	name:'play'
 	id:9
 }
+item {
+	name:'play'
+	id:10
+}

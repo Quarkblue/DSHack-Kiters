@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>yes.a8de3d10-2bac-11ed-9773-48e7da4a5167.jpg</filename>
+	<path>C:\Users\Deb\DSHack-Kiters\HandGesturesRecognition\Tensorflow\resources\images\collectedimages\yes.a8de3d10-2bac-11ed-9773-48e7da4a5167.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>479</xmin>
+			<ymin>263</ymin>
+			<xmax>560</xmax>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+</annotation>

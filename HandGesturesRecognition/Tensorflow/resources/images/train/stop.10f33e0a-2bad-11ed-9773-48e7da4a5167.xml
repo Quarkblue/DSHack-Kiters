@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>stop.10f33e0a-2bad-11ed-9773-48e7da4a5167.jpg</filename>
+	<path>C:\Users\Deb\DSHack-Kiters\HandGesturesRecognition\Tensorflow\resources\images\collectedimages\stop.10f33e0a-2bad-11ed-9773-48e7da4a5167.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>234</xmin>
+			<ymin>244</ymin>
+			<xmax>412</xmax>
+			<ymax>423</ymax>
+		</bndbox>
+	</object>
+</annotation>

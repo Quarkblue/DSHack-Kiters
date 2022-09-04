@@ -60,6 +60,7 @@ if args.image_dir is None:
 
 # label_map = label_map_util.load_labelmap(args.labels_path)
 # label_map_dict = label_map_util.get_label_map_dict(label_map)
+label_map_dict = label_map_util.get_label_map_dict(args.labels_path)
 
 
 def xml_to_csv(path):

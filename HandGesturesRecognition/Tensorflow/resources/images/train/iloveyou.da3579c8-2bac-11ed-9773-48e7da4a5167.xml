@@ -1,0 +1,26 @@
+<annotation>
+	<folder>collectedimages</folder>
+	<filename>iloveyou.da3579c8-2bac-11ed-9773-48e7da4a5167.jpg</filename>
+	<path>C:\Users\Deb\DSHack-Kiters\HandGesturesRecognition\Tensorflow\resources\images\collectedimages\iloveyou.da3579c8-2bac-11ed-9773-48e7da4a5167.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>iloveyou</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>192</ymin>
+			<xmax>130</xmax>
+			<ymax>335</ymax>
+		</bndbox>
+	</object>
+</annotation>
