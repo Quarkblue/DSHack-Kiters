@@ -6,6 +6,6 @@
 
 
 #Credits
-https://www.youtube.com/watch?v=pDXdlXlaCco
-https://www.tensorflow.org/api_docs/python/tf?version=nightly
-https://pyttsx3.readthedocs.io/en/latest/
+  * https://www.youtube.com/watch?v=pDXdlXlaCco
+  * https://www.tensorflow.org/api_docs/python/tf?version=nightly
+  * https://pyttsx3.readthedocs.io/en/latest/
