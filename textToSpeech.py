@@ -18,7 +18,8 @@ def speak(labelId):
         6:"Sleep",
         7:"Stop",
         8:"Sad",
-        9:"Play"
+        9:"Play",
+        10:"Play"
     }
 
     engine.say(LABELIDDICT[labelId]);
