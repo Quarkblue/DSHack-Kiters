@@ -83,9 +83,9 @@ CHECKPOINT_PATH = MODEL_PATH+'/my_ssd_mobnet/'
 # print(" ")
 # print(" ")
 
-print("""python {0}/research/object_detection/model_main_tf2.py --model_dir={1}/{2} --pipeline_config_path={3}/{4}/pipeline.config --num_train_steps=15000""".format(APIMODEL_PATH, MODEL_PATH,CUSTOM_MODEL_NAME,MODEL_PATH,CUSTOM_MODEL_NAME))
+# print("""python {0}/research/object_detection/model_main_tf2.py --model_dir={1}/{2} --pipeline_config_path={3}/{4}/pipeline.config --num_train_steps=15000""".format(APIMODEL_PATH, MODEL_PATH,CUSTOM_MODEL_NAME,MODEL_PATH,CUSTOM_MODEL_NAME))
 
-print("""python {}/research/object_detection/model_main_tf2.py --model_dir={}/{} --pipeline_config_path={}/{}/pipeline.config --num_train_steps=15000""".format(APIMODEL_PATH, MODEL_PATH,CUSTOM_MODEL_NAME,MODEL_PATH,CUSTOM_MODEL_NAME))
+# print("""python {}/research/object_detection/model_main_tf2.py --model_dir={}/{} --pipeline_config_path={}/{}/pipeline.config --num_train_steps=15000""".format(APIMODEL_PATH, MODEL_PATH,CUSTOM_MODEL_NAME,MODEL_PATH,CUSTOM_MODEL_NAME))
 
 
 import os
